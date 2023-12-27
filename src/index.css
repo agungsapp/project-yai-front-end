@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    @apply font-lexend;
+}
+
+.btn-basic {
+    @apply py-0 bg-gradient-to-r from-basic to-warning text-white hover:bg-transparent hover:text-basic hover:border-basic hover:border-2;
+}
+
+.nav-link {
+    @apply font-normal text-base hover:bg-basic hover:rounded-md hover:text-white transition-all duration-75;
+}
