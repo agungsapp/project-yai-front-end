@@ -13,3 +13,15 @@
 .nav-link {
     @apply font-normal text-base hover:bg-basic hover:rounded-md hover:text-white transition-all duration-75;
 }
+
+.bg-gradient-dominant {
+    background: rgb(23, 22, 61);
+    background: linear-gradient(
+        63deg,
+        rgba(23, 22, 61, 1) 0%,
+        rgba(23, 22, 61, 1) 51%,
+        rgba(97, 77, 59, 1) 68%,
+        rgba(194, 150, 56, 1) 88%,
+        rgba(255, 196, 54, 1) 100%
+    );
+}

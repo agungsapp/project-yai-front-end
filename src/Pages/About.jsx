@@ -1,10 +1,11 @@
-import React from 'react'
-import ParticlesBg from '../Components/PacticlesBg';
+
+import SimpleHero from '../Components/SimpleHero';
 
 function About() {
   return (
     <div className='h-screen'>
-      <ParticlesBg />
+
+      <SimpleHero />
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { seoIcon, timIcon, secureIcon, canggihIcon, profesionalIcon, dukunganIcon, universalIcon, analyticIcon } from '../assets/kenapa/IconKenapa.js'
 
 function KenapaKami() {

@@ -1,5 +1,5 @@
-import React from 'react'
-import Slider from 'react-slick';
+// import React from 'react'
+// import Slider from 'react-slick';
 
 import pertaminaLogo from '../assets/mitra/pertamina.png'
 import unsLogo from '../assets/mitra/uns.png'

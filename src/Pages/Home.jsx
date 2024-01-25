@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import HeroComponent from '../Components/HeroComponent'
 import MitraKamiComponent from '../Components/MitraKamiComponent'
 import KenapaKami from '../Components/KenapaKami'
