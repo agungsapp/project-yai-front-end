@@ -20,12 +20,12 @@ const HeroComponent = () => {
           <h1 className="text-4xl text-white text-center lg:text-start  lg:text-5xl font-bold">
             Mitra Andal untuk Solusi Website Korporat dan Pemerintahan
           </h1>
-          <p className="py-6 text-white text-sm text-center lg:text-start">
+          <p className="py-6 text-white text-base text-center lg:text-start">
             Menawarkan layanan pembuatan website yang aman, efisien, dan sesuai
             standar industri, kami berkomitmen mendukung operasi digital
             pemerintahan dan korporasi besar.
           </p>
-          <button className="btn border-warning btn-basic block mx-auto lg:mx-0">Hubungi Kami</button>
+          <button className="btn border-warning btn-basic block mx-auto  lg:mx-0">Hubungi Kami</button>
         </div>
       </div>
     </div>

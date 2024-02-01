@@ -1,12 +1,20 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCommentDots } from '@fortawesome/free-solid-svg-icons'
+import ProjectYai from '../assets/img/projectyai.jpg'
 
 
 
 function SimpleHero() {
+
+  const heroStyle = {
+    backgroundImage: `url(${ProjectYai})`,
+    backgroundAttachment: 'fixed',
+  }
+
   return (
-    <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content  text-center">
+    <div className="hero min-h-screen bg-base-200 p-32" style={heroStyle}>
+
+      <div className="hero-content card bg-base-200 text-center">
         <div className="w-9/12">
           <h1 className="text-5xl font-bold">Tentang Kami</h1>
           <p className="py-6">

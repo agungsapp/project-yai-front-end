@@ -8,11 +8,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        'hel': ['HelveticaNeueCyr'],
         pop: ['Poppins', 'roboto'],
         'lexend': ['Lexend', 'sans-serif']
       },
       colors: {
         'basic': '#ED6623',
+        'biru': '#17163D'
       },
     },
   },

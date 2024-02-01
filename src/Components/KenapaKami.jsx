@@ -60,7 +60,7 @@ function KenapaKami() {
   return (
     <section className='mt-10 bg-slate-100'>
       <div className=' py-11 md:py-16'>
-        <p className=' text-sm md:text-2xl  font-semibold text-center capitalize'>kenapa harus memilih kami ?</p>
+        <p className=' text-sm md:text-2xl font-hel  font-semibold text-center capitalize'>kenapa harus memilih kami ?</p>
         {/*         <p className='text-center mt-2'>
           Mengapa kami adalah yang terbaik di antara yang terbaik ?, dari banyaknya <br />
           jasa pembuatan website yang tersebar di internet.

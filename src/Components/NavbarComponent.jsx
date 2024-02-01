@@ -1,8 +1,12 @@
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Logo from '../assets/logo.png';
 
 function NavbarComponent() {
+
+
+
+
   return (
     <div className="navbar bg-base-200 sticky shadow-xl">
       <div className="navbar-start">
@@ -24,10 +28,10 @@ function NavbarComponent() {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li className='nav-link mx-1'><Link to="/">Home</Link></li>
-          <li className='nav-link mx-1'><Link to="/about">Tentang Kami</Link></li>
-          <li className='nav-link mx-1'><Link to="/portofolio">Portofolio</Link></li>
-          <li className='nav-link mx-1'><a>Tim Kami</a></li>
+          <li><NavLink className='nav-link' to="/">Home</NavLink></li>
+          <li><NavLink className='nav-link' to="/about">Tentang Kami</NavLink></li>
+          <li><NavLink className='nav-link' to="/portofolio">Portofolio</NavLink></li>
+          <li><a className='nav-link'>Tim Kami</a></li>
         </ul>
       </div>
       <div className="navbar-end">

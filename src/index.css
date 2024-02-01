@@ -2,16 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: HelveticaNeueCyr;
+    src: url("./assets/font/HelveticaNeueCyrRoman.ttf") format("truetype");
+}
 * {
     @apply font-lexend;
 }
 
 .btn-basic {
-    @apply py-0 bg-gradient-to-r from-basic to-warning text-white hover:bg-transparent hover:text-basic hover:border-basic hover:border-2;
+    @apply py-0 bg-gradient-to-r from-basic to-warning text-white hover:bg-transparent;
+}
+
+.active {
+    @apply bg-basic !important;
 }
 
 .nav-link {
-    @apply font-normal text-base hover:bg-basic hover:rounded-md hover:text-white transition-all duration-75;
+    @apply text-base hover:bg-basic hover:rounded-md active:bg-red-600 hover:text-white transition-all duration-75 mx-1 font-hel uppercase font-bold;
 }
 
 .bg-gradient-dominant {

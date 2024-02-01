@@ -11,7 +11,7 @@ function MitraKamiComponent() {
 
   return (
     <section className='p-3 mt-5 bg-white max-w-[1400px] mx-auto'>
-      <p className=' text-sm  md:text-2xl  font-semibold text-center capitalize'>telah dipercaya oleh</p>
+      <p className=' text-sm  md:text-2xl font-hel font-semibold text-center capitalize'>telah dipercaya oleh</p>
       <div className='mt-10 flex gap-10 justify-center flex-row'>
 
         <div className="card p-2 flex justify-center w-36 bg-base-200 bl shadow-xl ">
